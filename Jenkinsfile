@@ -6,7 +6,7 @@ pipeline {
         stage('Clone') {
             steps {
                 git branch: 'main',
-                url:  https://github.com/vipulitinfra/flask-docker-jenkins           }
+                url: 'https://github.com/vipulitinfra/flask-docker-jenkins '           }
         }
 
         stage('Build Docker Image') {
